@@ -20,6 +20,7 @@ https://www.php.net/manual/es/function.move-uploaded-file.php
     - destination: sitio del servidor donde se almacenará el archivo
 
 1. `$_FILES`
+
     El array global `$_FILES` contendrá toda la información de los los ficheros subidos. Su contenido en el formulario del ejemplo es el siguiente. Observe que se asume el empleo del nombre fichero_usuario para el fichero subido, tal como se utiliza en el script de ejemplo anterior. Este puede ser cualquier nombre.
 
     `$_FILES['fichero_usuario']['name']`: El nombre original del fichero en la máquina del cliente.
