@@ -6,7 +6,7 @@ https://www.php.net/manual/en/function.unlink.php
 https://www.php.net/manual/es/function.move-uploaded-file.php
 
 ## Subir un fichero local a un servidor
-1. atributo `enctype` asociado a la etiqueta `form`
+1. atributo `enctype="multipart/form-data"` asociado a la etiqueta `form`
     ```html
     <form action="filename" method="post" enctype="multipart/form-data">
         <!--code-->

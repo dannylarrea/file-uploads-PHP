@@ -9,8 +9,11 @@
 <body>
     <form action="../processes/insert.upload.proc.php" method="POST" enctype="multipart/form-data">
         <input type="text" name="title" id="">
-        <input type="file" name="file" id="">
+        <input type="file" name="file" id="" accept="image/*">
         <input type="submit" value="send">
     </form>
+    <!--mostrar las imágenes a partir de los registros de la base de datos-->
+
+
 </body>
 </html>
