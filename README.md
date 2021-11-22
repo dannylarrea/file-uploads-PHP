@@ -1,4 +1,5 @@
-**Enlaces de referencia:**
+**Referencias:**
+
 https://www.php.net/manual/es/features.file-upload.post-method.php
 https://www.php.net/manual/es/language.exceptions.php
 https://www.php.net/manual/en/function.unlink.php
