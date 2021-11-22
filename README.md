@@ -36,5 +36,4 @@ https://www.php.net/manual/es/function.move-uploaded-file.php
 1. insertar registro en la base de datos
 
 1. controlar errores y excepciones
-    - `unlink(filename)`
-
+    - `unlink(filename)`: Borra un fichero
