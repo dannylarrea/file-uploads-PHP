@@ -24,7 +24,7 @@ Se puede construir una página de subida de ficheros creando un formulario espec
     </form>
     ```
 
-**IMPORTANTE** Asegúrese de que el formulario de subida de ficheros tiene el atributo enctype="multipart/form-data" o de lo contrario la subida de ficheros no funcionará!!
+    **IMPORTANTE** Asegurarse de que el formulario de subida de ficheros tiene el atributo enctype="multipart/form-data" o de lo contrario la subida de ficheros no funcionará!!
 
 2. subir el fichero `move_uploaded_file(filename, destination)`
 
