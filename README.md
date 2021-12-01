@@ -50,6 +50,6 @@
     - `unlink(filename)`: Borra un fichero
 
 ----
-**Subir más de un fichero**
+**Subir un array de ficheros**
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/dannylarrea/file-uploads-PHP/blob/main/resources/ejemplo_3.png" width="100%"></a></p>
