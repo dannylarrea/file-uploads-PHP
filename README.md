@@ -1,11 +1,11 @@
+## Subir un fichero local a un servidor
+
 **Referencias:**
 
-https://www.php.net/manual/es/features.file-upload.post-method.php
-https://www.php.net/manual/es/language.exceptions.php
-https://www.php.net/manual/en/function.unlink.php
-https://www.php.net/manual/es/function.move-uploaded-file.php
-
-## Subir un fichero local a un servidor
+- https://www.php.net/manual/es/features.file-upload.post-method.php
+- https://www.php.net/manual/es/language.exceptions.php
+- https://www.php.net/manual/en/function.unlink.php
+- https://www.php.net/manual/es/function.move-uploaded-file.php
 
 **Formulario para la subida de ficheros**
 
@@ -22,13 +22,15 @@ https://www.php.net/manual/es/function.move-uploaded-file.php
 
     **IMPORTANTE:** Comprobar que el formulario de subida de ficheros tiene el atributo **enctype="multipart/form-data"** o de lo contrario la subida de ficheros no funcionará!!
 
-2. subir el fichero `move_uploaded_file(filename, destination)`
+**Subida y eliminación de ficheros**
+
+1. subir el fichero `move_uploaded_file(filename, destination)`
 
     - filename: archivo temporal
 
     - destination: sitio del servidor donde se almacenará el archivo
 
-3. `$_FILES`
+1. `$_FILES`
 
     El array global `$_FILES` contendrá toda la información de los los ficheros subidos. Su contenido en el formulario del ejemplo es el siguiente. Observe que se asume el empleo del nombre fichero_usuario para el fichero subido, tal como se utiliza en el script de ejemplo anterior. Este puede ser cualquier nombre.
 
@@ -42,7 +44,7 @@ https://www.php.net/manual/es/function.move-uploaded-file.php
 
     `$_FILES['fichero_usuario']['error']`: El código de error asociado a esta subida.
 
-4. insertar registro en la base de datos
+1. insertar registro en la base de datos
 
-5. controlar errores y excepciones
+1. controlar errores y excepciones
     - `unlink(filename)`: Borra un fichero
