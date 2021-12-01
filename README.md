@@ -48,3 +48,6 @@
 
 1. controlar errores y excepciones
     - `unlink(filename)`: Borra un fichero
+
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/dannylarrea/file-uploads-PHP/blob/main/resources/ejemplo_3.png" width="400"></a></p>
