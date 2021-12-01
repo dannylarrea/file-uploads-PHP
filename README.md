@@ -9,13 +9,9 @@ https://www.php.net/manual/es/function.move-uploaded-file.php
 
 **Formulario para la subida de ficheros**
 
-Se puede construir una página de subida de ficheros creando un formulario especial parecido a este:
-
-
 1. LA __URL__ del siguiente ejemplo se debe sustituir y debe apuntar a un fichero de PHP.
 
     ```html
-
     <!-- El tipo de codificación de datos, enctype, DEBE especificarse como sigue -->
     <form enctype="multipart/form-data" action="__URL__" method="POST">
         <!-- El nombre del elemento de entrada determina el nombre en el array $_FILES -->
@@ -24,7 +20,7 @@ Se puede construir una página de subida de ficheros creando un formulario espec
     </form>
     ```
 
-    **IMPORTANTE** Asegurarse de que el formulario de subida de ficheros tiene el atributo enctype="multipart/form-data" o de lo contrario la subida de ficheros no funcionará!!
+    **IMPORTANTE:** Comprobar que el formulario de subida de ficheros tiene el atributo **enctype="multipart/form-data"** o de lo contrario la subida de ficheros no funcionará!!
 
 2. subir el fichero `move_uploaded_file(filename, destination)`
 
